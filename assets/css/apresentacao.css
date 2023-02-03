@@ -2,7 +2,51 @@
 
     display: flex;
     margin-top: -4.5rem;
-    margin-left: -1.5rem;
+    margin-left: .5rem;
     width: 15rem;
     height: 16rem;
+}
+
+
+.p-mobile {
+    font-size: 12px;
+    opacity: .6;
+}
+
+.btn-sm {
+    display: flex;
+    margin-top: -1rem;
+    opacity: .6;
+}
+
+.p-mobile-txt {
+
+    display: flex;
+    width: 340px;
+    margin-top: -5rem;
+    font-size: 12px;
+    opacity: .6;
+    
+}
+
+.sobre-escondido {
+
+    width: 95%;
+    margin: 3rem 0;
+    
+}
+
+.ler-mais{
+    position: absolute;
+    left:  -100000vw;
+}
+
+.ler-mais-ativo {
+    position: inherit;
+    left: 0;
+}
+
+.btn-ler-mais-inativo {
+    position: absolute;
+    left:  -1000000vw;
 }
