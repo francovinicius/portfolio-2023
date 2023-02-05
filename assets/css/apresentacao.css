@@ -1,8 +1,13 @@
+body {
+    background-color: #0D1117;
+    color: #FFFFFF;
+}
+
 .foto-mobile {
 
     display: flex;
-    margin-top: -4.5rem;
-    margin-left: .5rem;
+    margin-top: -5.5rem;
+    margin-left: 1rem;
     width: 15rem;
     height: 16rem;
 }
