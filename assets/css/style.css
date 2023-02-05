@@ -1,1 +1,7 @@
 @import url(./apresentacao.css);
+
+
+.navbar-nav a {
+    color: #FFFFFF;
+    opacity: .6;
+}
