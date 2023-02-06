@@ -1,9 +1,7 @@
 @import url(./apresentacao.css);
 @import url(./footer.css);
+@import url(./projetos.css);
 
-body {
-    color: #FFFFFF;
-}
 .navbar-nav a {
     color: #FFFFFF;
     opacity: .6;
