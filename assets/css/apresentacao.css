@@ -97,3 +97,17 @@ margin: 5rem 0 5rem 1rem;
     font-weight: 700;
     font-size: 1.5rem;
   }
+
+.accordion {
+  width: 90%;
+}
+
+.accordion-button {
+  background-color: #0D1117;
+  color: #ffffff;
+}
+
+.accordion-body {
+  background-color: #1b1b22;
+  color: #ffffffa2;
+}
