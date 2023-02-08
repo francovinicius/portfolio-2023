@@ -111,3 +111,11 @@ margin: 5rem 0 5rem 1rem;
   background-color: #1b1b22;
   color: #ffffffa2;
 }
+
+.titulo-skill {
+  color: #FFFFFF;
+}
+
+.mensagem-skill {
+  margin-top: -.5rem;
+}
