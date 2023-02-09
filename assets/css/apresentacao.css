@@ -60,6 +60,11 @@ body {
 margin: 0 0 5rem 1rem;
 
 }
+
+.texto {
+  margin-bottom: 2rem;
+}
+
 .skills {
     grid-area: skills;
     display: flex;
