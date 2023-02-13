@@ -1,4 +1,7 @@
 @media screen and (min-width:720px) {
+
+     /* section apresentação */ 
+
     .foto-mobile {
         width: 35rem;
         height: 35rem;
@@ -12,15 +15,12 @@
         
     }
     
-    .btn-sm {
+    .btn-ler-mais {
         padding: .5rem 1rem;
         margin-top: .5rem;
     }
     
     .p-apresentacao-txt {
-    
-
-        width: 630px;
         margin-top: -5rem;
         font-size: 18px;
         opacity: .6;
@@ -32,5 +32,60 @@
         width: 95%;
         margin: 3rem 0;
         
+    }
+
+    /* fim da section apresentação */
+
+   
+  }
+
+  @media screen and (min-width:1024px) {
+
+    h2 {
+        font-size: 40px;
+    }
+
+    /* section apresentação */
+    .foto-mobile {
+        width: 40rem;
+        height: 40rem;
+        margin-left: 5rem;
+    }
+
+    .p-apresentacao {
+        margin-top: -4rem;
+        font-size:24px;
+        opacity: .6;
+        
+    }
+    
+    .btn-ler-mais {
+        padding: 1rem 2rem;
+        margin-top: .5rem;
+        font-size: 18px;
+    }
+    
+    .p-apresentacao-txt {
+    
+        margin-top: -7rem;
+        font-size: 24px;
+        opacity: .6;
+        
+    }
+    
+    .sobre-escondido {
+    
+        width: 95%;
+        margin: 3rem 0;
+        
+    }
+
+    /* fim da section apresentação */
+  }
+
+  @media screen and (min-width:1024px) {
+    .img-fluid {
+        display: block;
+        width: 100%;
     }
   }
