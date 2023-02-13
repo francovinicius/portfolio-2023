@@ -1,5 +1,4 @@
 .projetos {
-    width: 90%;
     margin: 5rem 0;
 }
 
@@ -37,5 +36,9 @@
 
 .card-body-projetos p {
     opacity: .6;
+}
+
+.meus-projetos{
+    margin-left: 1rem;
 }
 
