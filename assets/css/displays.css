@@ -81,6 +81,21 @@
     }
 
     /* fim da section apresentação */
+
+    /* section skills */
+
+    .accordion-item img {
+        width: 26px;
+    }
+    .topico-skill {
+        font-size: 22px;
+    }
+    .titulo-skill {
+        font-size: 20px;
+    }
+    .mensagem-skill {
+        font-size: 16px;
+    }
   }
 
   @media screen and (min-width:1024px) {

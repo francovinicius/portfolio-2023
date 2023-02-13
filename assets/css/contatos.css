@@ -35,15 +35,27 @@
     cursor: pointer;
   }
   
-  .card-icon1{
+  .card-icon1, .card-icon2, .card-icon3{
     font-size: 28px;
-    background: #ff6348;
     width: 50px;
     height: 50px;
     text-align: center;
     line-height: 60px !important;
     border-radius: 50%;
     transition: 0.3s linear;
+    opacity: .6;
+  }
+
+  .card-icon1{
+    background: #ff6348;
+  }
+  
+  .card-icon2{
+    background: #40C351;
+  }
+
+  .card-icon3{
+    background:#0078D4;
   }
   
   
