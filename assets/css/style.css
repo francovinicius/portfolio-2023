@@ -1,6 +1,7 @@
 @import url(./apresentacao.css);
 @import url(./footer.css);
 @import url(./projetos.css);
+@import url(./contatos.css);
 
 .navbar-nav a {
     color: #FFFFFF;
