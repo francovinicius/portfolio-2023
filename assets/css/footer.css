@@ -1,7 +1,3 @@
-footer img {
-    width: 2rem;
-}
-
 .fixar-rodape{
 
     border-top: 1px solid #abb2bf7a;
@@ -10,7 +6,23 @@ footer img {
     padding-top: 1rem;
 }
 
-.icon-footer {
-    width: 1.6rem;
-    margin-left: 5px;
+.img-rodape {
+    width: 24px;
+}
+
+.div-footer {
+    margin-right: 1.5rem;
+}
+
+.contatos-footer {
+    margin-left: 1.5rem;
+}
+
+footer li {
+    opacity: .7;
+}
+
+.copy-footer {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
 }
