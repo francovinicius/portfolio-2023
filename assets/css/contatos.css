@@ -1,5 +1,5 @@
 .contatos {
-    margin: 2rem 0;
+    margin: 5rem 0 5rem 1rem;
 }
 
 .div-contatos {
@@ -62,13 +62,4 @@
   }
   
   
-  @media screen and (max-width:800px) {
-    .contact-info1{
-      flex-direction: column;
-    }
-    .card1{
-      width: 100%;
-      max-width: 300px;
-      margin: 10px 0;
-    }
-  }
+  

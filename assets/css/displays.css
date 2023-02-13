@@ -1,0 +1,36 @@
+@media screen and (min-width:720px) {
+    .foto-mobile {
+        width: 35rem;
+        height: 35rem;
+        margin-top: -18rem;
+    }
+
+    .p-apresentacao {
+        margin-top: -4rem;
+        font-size: 18px;
+        opacity: .6;
+        
+    }
+    
+    .btn-sm {
+        padding: .5rem 1rem;
+        margin-top: .5rem;
+    }
+    
+    .p-apresentacao-txt {
+    
+
+        width: 630px;
+        margin-top: -5rem;
+        font-size: 18px;
+        opacity: .6;
+        
+    }
+    
+    .sobre-escondido {
+    
+        width: 95%;
+        margin: 3rem 0;
+        
+    }
+  }

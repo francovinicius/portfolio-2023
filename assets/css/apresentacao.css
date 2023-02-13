@@ -13,7 +13,7 @@ body {
 }
 
 
-.p-mobile {
+.p-apresentacao {
     font-size: 12px;
     opacity: .6;
 }
@@ -24,7 +24,7 @@ body {
     opacity: .6;
 }
 
-.p-mobile-txt {
+.p-apresentacao-txt {
 
     display: flex;
     width: 340px;
