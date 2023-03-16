@@ -20,6 +20,10 @@
     
 }
 
+.card-body-projetos p {
+    height: 9rem;
+}
+
 .projeto-img-linguagem {
     
     width: 30px;

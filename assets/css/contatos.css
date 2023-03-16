@@ -1,5 +1,10 @@
 .contatos {
-    margin: 5rem 0 5rem 1rem;
+    margin: 25rem 0 -3rem 1rem;
+    width: 100%;
+}
+
+.contatos h2 {
+  margin-bottom: 9rem;
 }
 
 .div-contatos {
@@ -8,70 +13,57 @@
     gap: 15px;
 }
 
-.btn-enviar-email {
-    
-    margin-top: 1rem;
+.middlee{
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
 }
-
-.contact-info1{
-    display: flex;
-    width: 100%;
-    max-width: 1200px;
-    align-items: center;
-    justify-content: center;
-    padding: 0 20px;
+.btnn{
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  background: #272729;
+  margin: 10px;
+  border-radius: 30%;
+  box-shadow: 0 5px 15px -5px #00000070;
+  color: #9ed4f8;
+  overflow: hidden;
+  position: relative;
 }
-  
-  
-  .card1{
-    padding: 0 20px;
-    margin: 0 10px;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    cursor: pointer;
+.btnn i{
+  line-height: 90px;
+  font-size: 26px;
+  transition: 0.2s linear;
+}
+.btnn:hover i{
+  transform: scale(1.3);
+  color: #272729;
+}
+.btnn::before{
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: #9ed4f8;
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+.btnn:hover::before{
+  animation: aaa 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+@keyframes aaa {
+  0%{
+    left: -110%;
+    top: 90%;
+  }50%{
+    left: 10%;
+    top: -30%;
+  }100%{
+    top: -10%;
+    left: -10%;
   }
-  
-  .card-icon1, .card-icon2, .card-icon3{
-    font-size: 28px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    line-height: 60px !important;
-    border-radius: 50%;
-    transition: 0.3s linear;
-    opacity: .6;
-  }
-
-  .card-icon1{
-    background: #ff6348;
-  }
-  
-  .card-icon2{
-    background: #40C351;
-  }
-
-  .card-icon3{
-    background:#0078D4;
-  }
-  
-  
-  .card1 p{
-    margin-top: 20px;
-    font-weight: 300;
-    letter-spacing: 2px;
-    max-height: 0;
-    opacity: 0;
-    transition: 0.3s linear;
-  }
-  
-  .card1:hover p{
-    max-height: 40px;
-    opacity: 1;
-  }
-  
-  
-  
+}

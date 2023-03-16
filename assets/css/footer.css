@@ -1,5 +1,7 @@
 .fixar-rodape{
 
+
+
     border-top: 1px solid #abb2bf7a;
     bottom: 0;
     width: 100%;
@@ -8,6 +10,7 @@
 
 .img-rodape {
     width: 24px;
+    
 }
 
 .div-footer {
@@ -25,4 +28,10 @@ footer li {
 .copy-footer {
     margin-top: 3rem;
     margin-bottom: 1rem;
+}
+
+@media (max-width:760px){
+.img-rodape{
+    margin-top: -1rem;
+}
 }
